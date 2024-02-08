@@ -1,6 +1,6 @@
 # Car Rental webapp
 
-[Demo link here](https://car-rental-12.netlify.app)
+## [Demo link here](https://car-rental-12.netlify.app)
 
 ## This is front-end webapp for renting a car.
   Technology used: React, Javascript, Node.js, HTML, CSS
