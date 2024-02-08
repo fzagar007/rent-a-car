@@ -1,0 +1,93 @@
+.contactSection {
+    max-width: 1300px;
+    margin: 0 auto;
+    float: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 10rem 2rem;
+}
+
+.contactSection-contact h2 {
+    font-size: 3rem;
+    color: #000d6b;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.contactSection-contact h4 {
+    font-size: 2rem;
+    color: #f7a625;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.contactSection-contact-span {
+    display: grid;
+    gap: 1rem;
+}
+
+.contactSection-contact-span a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.contactSection-contact-span a:hover {
+    color: #f7a625;
+}
+
+.contactSection-contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactSection-contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactSection-contact-form label {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.contactSection-contact-form form input {
+    background-color: #f2f2f2;
+    padding: 19px 30px 19px 30px;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    margin-bottom: 2.3rem;
+}
+
+.contactSection-contact-form form textarea {
+    background-color: #f2f2f2;
+    height: 15rem;
+    padding: 19px 30px 19px 30px;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    margin-bottom: 2.5rem;
+    overflow-y: auto;
+}
+
+.contactSection-contact-form form button {
+    background-color: #f7a625;
+    padding: 1.2rem 3rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
+    transition: all 0.3s;
+    border: 2px solid #f7a625;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .contactSection {
+        display: block;
+    }
+}

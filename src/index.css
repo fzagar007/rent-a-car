@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scrollbar-width: thin;
+  scrollbar-color: #f7a625 #ffffff;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif; 
+	margin: 0 auto; 
+	float: none; 
+}
+
+html {
+  scroll-behavior: smooth;
+}
