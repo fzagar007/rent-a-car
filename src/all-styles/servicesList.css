@@ -3,6 +3,7 @@
     margin: 0 auto;
     float: none;
     margin-top: 50px;
+    padding: 1rem;
 }
 
 .services-section-content1 {
@@ -65,6 +66,12 @@
     margin-bottom: 0.5rem;
 }
 
+.service-item span{
+    margin-left: 45%;
+}
+
+
+
 @media only screen and (max-width: 768px) {
     .services-section-content1 {
         display: block;
@@ -87,5 +94,6 @@
         font-size: 1.1rem;
     }
 
+   
    
 }

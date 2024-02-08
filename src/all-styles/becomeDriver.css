@@ -12,7 +12,7 @@
 }
 
 .img1 {
-    width: 30%;
+    width: 30rem;
     margin-left: 10%;
 
 }
@@ -69,7 +69,8 @@
     }
 
     .img1 {
-        width: 40%;
+        width: 20rem;
+        height: 15rem;
     }
 }
 
