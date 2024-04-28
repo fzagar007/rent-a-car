@@ -1,0 +1,46 @@
+.TeamSection {
+    max-width: 1300px;
+    margin: 0 auto;
+    float: none;
+}
+
+.TeamSection-container {
+    display: grid;
+    grid-template-columns: 0.8fr 0.8fr 0.8fr;
+    grid-template-rows: auto;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    padding: 10rem 2rem;
+    margin: 0 auto;
+}
+
+.team-img {
+    width: 100%;
+}
+
+.TeamSection-container-box {
+    width: 20rem;
+    background-color: white;
+    box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.08);
+}
+
+@media only screen and (max-width: 1050px) {
+    .TeamSection-container-box {
+        width: 15rem;
+    }
+}
+
+@media only screen and (max-width: 815px) {
+    .TeamSection-container {
+        grid-template-columns: 0.8fr 0.8fr;
+        width: -moz-fit-content;
+        width: fit-content;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .TeamSection-container {
+        grid-template-columns: 0.8fr;
+    }
+}

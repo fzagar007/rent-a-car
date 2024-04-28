@@ -1,0 +1,99 @@
+.services-section {
+    max-width: 1300px;
+    margin: 0 auto;
+    float: none;
+    margin-top: 50px;
+    padding: 1rem;
+}
+
+.services-section-content1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.services-section-content2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2.5rem;
+}
+
+.service-item {
+    margin-right: 5%;
+}
+
+.service-item h6 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: 0.3s;
+    color: #000d6b;
+}
+
+.service-item h6:hover {
+    color: #f7a625;
+}
+
+.service-item span {
+    font-size: 2.5rem;
+    color: #f7a625;
+    margin-bottom: 0.8rem;
+    display: inline-block;
+}
+
+.service-item-description {
+    color: #7c8a97;
+    font-size: 0.8rem;
+    line-height: 30px;
+}
+
+.services-section-titles {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.services-section-subtitle {
+    color: #f7a625;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.services-section-title {
+    color: #000d6b;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.service-item-h6 {
+    margin-bottom: 0.5rem;
+}
+
+.service-item span{
+    margin-left: 45%;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .services-section-content1 {
+        display: block;
+    }
+
+    .services-section-content2 {
+        display: block;
+        margin-top: 0;
+    }
+
+    .service-span {
+        margin-top: 2rem;
+    }
+
+    .service-item-h6 {
+        margin-top: -1rem;
+    }
+
+    .service-item h6 {
+        font-size: 1.1rem;
+    }
+
+   
+   
+}

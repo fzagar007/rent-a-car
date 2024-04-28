@@ -1,0 +1,112 @@
+.footerContainer {
+    max-width: 1300px;
+    margin: 0 auto;
+    float: none;
+    box-shadow: 0 0 0 100vmax #000d6b;
+    clip-path: inset(0 -100vmax);
+    background-color: #000d6b;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    margin-top: 10rem;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.footerContainer-content {
+    display: flex;
+}
+
+.footerContainer-content1 li a,
+.footerContainer-content2 li a,
+.footerContainer-content1-text {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.715);
+    transition: 0.3s;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.footerContainer-content1 li a:hover,
+.footerContainer-content2 li a:hover {
+    color: #f7a625;
+}
+
+.footer-headings {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.footerContainer-content3-span2,
+.footerContainer-content4 {
+    color: rgba(255, 255, 255, 0.715);
+    font-weight: 300;
+}
+
+.footerContainer-content1,
+.footerContainer-content2,
+.footerContainer-content3,
+.footerContainer-content4 {
+    max-width: 25rem;
+    margin-right: 4%;
+}
+
+.footerContainer-content1-text {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.footerContainer-content2-li {
+    margin-top: 1rem;
+}
+
+.footerContainer-content3-span2 li {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+
+}
+
+.footerContainer-content4 p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.footerContainer-content4 input {
+    margin-top: 1rem;
+    padding: 8px 12px;
+    border: 1px solid #7c8a972f;
+    border-radius: 50px;
+    background: #020a4de9;
+    color: #fff;
+}
+
+.footerContainer-content4 button {
+    padding: 8px 12px;
+    border: 1px solid #7c8a972f;
+    border-radius: 50px;
+    background: #020a4de9;
+    color: #fff;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1300px) {
+    .footerContainer {
+        padding: 0.5rem 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footerContainer-content {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul {
+        margin-top: 2rem;
+    }
+}
